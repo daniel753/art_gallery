@@ -9,6 +9,7 @@ phases:
   install:
     commands:
       - echo Bundle install...
+      - gem install bundler:1.14.3
       - bundle install
       - bundle exec rake db:migrate
   build:
